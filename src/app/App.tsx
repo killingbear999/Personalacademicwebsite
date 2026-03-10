@@ -21,7 +21,7 @@ export default function App() {
             <div className="md:col-span-1">
               <div className="rounded-lg overflow-hidden shadow-lg">
                 <ImageWithFallback 
-                  src="https://images.unsplash.com/photo-1766297247194-9b635e9eea56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhY2FkZW1pYyUyMHJlc2VhcmNoZXIlMjBsYWJvcmF0b3J5JTIwc2NpZW5jZXxlbnwxfHx8fDE3NzMxNTg3Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+                  src=""
                   alt="Academic Research"
                   className="w-full h-auto"
                 />
@@ -29,18 +29,17 @@ export default function App() {
             </div>
             <div className="md:col-span-2">
               <p className="text-gray-700 leading-relaxed mb-4">
-                I am a Ph.D. student in Medicine at Nanyang Technological University, Singapore, specializing in 
-                systems modeling, biostatistics, and deep learning applications in healthcare and infectious disease dynamics.
+                I am a Ph.D. candidate in Lee Kong Chian School of Medicine at Nanyang Technological University, Singapore, specializing in 
+                systems modeling and biostatistics.
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
-                My research focuses on developing computational models to understand and predict the spread of infectious 
-                diseases, evaluate public health interventions, and optimize treatment strategies. I work under the guidance 
-                of Prof. Jue Tao Lim and Dr. Ian Wee Liang En at Singapore General Hospital.
+                My current research focuses on developing mathematical models to understand and predict the spread of infectious 
+                diseases, emergence of antimicrobial resistance, evaluate and optimize public health interventions. I work under the guidance 
+                of Prof. Jue Tao Lim at NTU and Dr. Ian Wee Liang En at Singapore General Hospital.
               </p>
               <p className="text-gray-700 leading-relaxed">
                 Previously, I earned my Bachelor's degree with Distinction in Computer Engineering from the National University 
-                of Singapore and worked as a Research Engineer, contributing to projects in machine learning, chemical process 
-                modeling, and biomedical engineering.
+                of Singapore and worked as a Research Engineer, specializing in deep learning for engineering.
               </p>
             </div>
           </div>
@@ -51,7 +50,7 @@ export default function App() {
           <div className="space-y-6">
             <EducationCard
               institution="Nanyang Technological University, Singapore"
-              degree="Ph.D. student, Medicine"
+              degree="Ph.D. candidate, Medicine"
               gpa="GPA: 4.88/5.0"
               period="January 2025 - present"
               advisors={[
@@ -79,19 +78,13 @@ export default function App() {
         <Section id="publications" title="Publications">
           <div className="space-y-4">
             <PublicationCard
-              authors="Lin Geng*, Perran A. Ross*, Jo Yi Chow, Zihao Wang, Esther Li Wen Choo, Chia-Chen Chang, Xinyue Gu, Ary Hoffmann, Jue Tao Lim"
-              title="Wolbachia-mediated incompatible-insect technique robust to future climate change scenarios"
-              venue="Submitted"
-              status="Under Review"
-            />
-            <PublicationCard
               authors="Zihao Wang, Dariya Nikitin, Borame L. Dickens, Liang En Wee, Martin T.W. Chio, Rayner Kay Jin Tan, Keisuke Ejima, Yi Wang, David N. Fisman, Lilith K. Whittles, and Jue Tao Lim"
               title="Long-term public health impact of doxycycline post-exposure prophylaxis on syphilis transmission"
               venue="Nature Health"
               status="Accepted"
               links={[
-                { label: 'medRxiv', url: '#' },
-                { label: 'GitHub', url: '#' }
+                { label: 'medRxiv', url: 'https://doi.org/10.1101/2025.07.28.25332286' },
+                { label: 'GitHub', url: 'https://github.com/killingbear999/doxypep_syphilis' }
               ]}
             />
             <PublicationCard
@@ -99,8 +92,8 @@ export default function App() {
               title="Input convex lipschitz recurrent neural networks for robust and efficient process modeling and optimization"
               venue="arXiv"
               links={[
-                { label: 'arXiv', url: '#' },
-                { label: 'GitHub', url: '#' }
+                { label: 'arXiv', url: 'https://doi.org/10.48550/arXiv.2401.07494' },
+                { label: 'GitHub', url: 'https://github.com/killingbear999/ICLRNN' }
               ]}
             />
             <PublicationCard
@@ -108,8 +101,8 @@ export default function App() {
               title="Towards foundation model for chemical reactor modeling: Meta-learning with physics-informed adaptation"
               venue="Chemical Engineering Research and Design, 218, 839-853, 2025. IF: 3.9, JCR Q2 (Engineering, Chemical)"
               links={[
-                { label: 'Paper', url: '#' },
-                { label: 'GitHub', url: '#' }
+                { label: 'Paper', url: 'https://doi.org/10.1016/j.cherd.2025.05.015' },
+                { label: 'GitHub', url: 'https://github.com/killingbear999/chemical-reactor-foundation-model' }
               ]}
             />
             <PublicationCard
@@ -117,8 +110,8 @@ export default function App() {
               title="Real-time machine-learning-based optimization using input convex long short-term memory network"
               venue="Applied Energy, 377, 124472, 2025. IF: 11.0, JCR Q1 (Engineering, Chemical; Energy & Fuels)"
               links={[
-                { label: 'Paper', url: '#' },
-                { label: 'GitHub', url: '#' }
+                { label: 'Paper', url: 'https://doi.org/10.1016/j.apenergy.2024.124472' },
+                { label: 'GitHub', url: 'https://github.com/killingbear999/ICLSTM' }
               ]}
             />
             <PublicationCard
@@ -126,8 +119,8 @@ export default function App() {
               title="Upper limb movement recognition utilising EEG and EMG signals for rehabilitative robotics"
               venue="Proceedings of Future of Information and Communication Conference, 676-695, San Francisco, California, USA, 2023"
               links={[
-                { label: 'Paper', url: '#' },
-                { label: 'GitHub', url: '#' }
+                { label: 'Paper', url: 'https://doi.org/10.1007/978-3-031-28076-4_49' },
+                { label: 'GitHub', url: 'https://github.com/killingbear999/eeg-emg-lstm' }
               ]}
             />
             <p className="text-sm text-gray-500 italic mt-4">* denotes equal contribution</p>

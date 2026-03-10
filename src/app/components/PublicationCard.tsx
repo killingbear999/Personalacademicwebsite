@@ -17,7 +17,7 @@ export function PublicationCard({ authors, title, venue, links, status }: Public
         </div>
         <div className="flex-1">
           <p className="text-gray-700 text-sm mb-2">{authors}</p>
-          <h3 className="text-base text-gray-900 mb-2 leading-snug">
+          <h3 className="text-gray-900 mb-2 leading-snug">
             "{title}"
           </h3>
           <p className="text-sm text-gray-600 mb-2 italic">{venue}</p>

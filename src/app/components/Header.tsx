@@ -7,7 +7,7 @@ export function Header() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           <div>
             <h1 className="text-4xl font-bold text-gray-900 mb-2">Zihao Wang</h1>
-            <p className="text-xl text-gray-600 mb-4">Ph.D. Student in Medicine</p>
+            <p className="text-xl text-gray-600 mb-4">Ph.D. Candidate in Medicine</p>
             <p className="text-gray-700 max-w-2xl">
               Researcher specializing in systems modeling, biostatistics, and deep learning 
               for healthcare and infectious disease dynamics.

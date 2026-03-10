@@ -1,7 +1,7 @@
 import { FileText, ExternalLink, Github } from 'lucide-react';
 
 interface PublicationCardProps {
-  authors: React.ReactNode;
+  authors: string;
   title: string;
   venue: string;
   links?: { label: string; url: string }[];
@@ -9,6 +9,18 @@ interface PublicationCardProps {
 }
 
 export function PublicationCard({ authors, title, venue, links, status }: PublicationCardProps) {
+  // Split authors by "Zihao Wang" and insert a bold span
+  const renderAuthors = () => {
+    const parts = authors.split("Zihao Wang");
+    return parts.reduce<React.ReactNode[]>((acc, part, index) => {
+      acc.push(part); // normal text
+      if (index < parts.length - 1) {
+        acc.push(<span key={index} className="font-bold">Zihao Wang</span>);
+      }
+      return acc;
+    }, []);
+  };
+
   return (
     <div className="bg-white rounded-lg border border-gray-200 p-5 hover:shadow-md transition-shadow">
       <div className="flex items-start gap-3">
@@ -16,12 +28,12 @@ export function PublicationCard({ authors, title, venue, links, status }: Public
           <FileText className="text-green-600" size={20} />
         </div>
         <div className="flex-1">
-          <p className="text-gray-700 text-sm mb-2">{authors}</p>
+          <p className="text-gray-700 text-sm mb-2">{renderAuthors()}</p>
           <h3 className="text-gray-900 mb-2 leading-snug">
             "{title}"
           </h3>
           <p className="text-sm text-gray-600 mb-2 italic">{venue}</p>
-          
+
           {status && (
             <span className="inline-block px-2 py-1 bg-blue-50 text-blue-700 text-xs rounded mb-3">
               {status}

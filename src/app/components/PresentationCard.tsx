@@ -27,7 +27,7 @@ export function PresentationCard({
         </div>
         <div className="flex-1">
           <p className="text-gray-700 text-sm mb-2">{authors}</p>
-          <h3 className="text-base font-semibold text-gray-900 mb-2 leading-snug">
+          <h3 className="text-gray-900 mb-2 leading-snug">
             "{title}"
           </h3>
           <p className="text-sm text-gray-600 mb-2 italic">{conference}</p>

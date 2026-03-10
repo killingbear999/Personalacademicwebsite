@@ -78,7 +78,7 @@ export default function App() {
         <Section id="publications" title="Publications">
           <div className="space-y-4">
             <PublicationCard
-              authors="Zihao Wang, Dariya Nikitin, Borame L. Dickens, Liang En Wee, Martin T.W. Chio, Rayner Kay Jin Tan, Keisuke Ejima, Yi Wang, David N. Fisman, Lilith K. Whittles, and Jue Tao Lim"
+              authors="<strong>Zihao Wang<strong>, Dariya Nikitin, Borame L. Dickens, Liang En Wee, Martin T.W. Chio, Rayner Kay Jin Tan, Keisuke Ejima, Yi Wang, David N. Fisman, Lilith K. Whittles, and Jue Tao Lim"
               title="Long-term public health impact of doxycycline post-exposure prophylaxis on syphilis transmission"
               venue="Nature Health"
               status="Accepted"
@@ -88,7 +88,7 @@ export default function App() {
               ]}
             />
             <PublicationCard
-              authors="Zihao Wang, Yuhan Li, Yao Shi, and Zhe Wu"
+              authors="<strong>Zihao Wang<strong>, Yuhan Li, Yao Shi, and Zhe Wu"
               title="Input convex lipschitz recurrent neural networks for robust and efficient process modeling and optimization"
               venue="arXiv"
               links={[
@@ -97,7 +97,7 @@ export default function App() {
               ]}
             />
             <PublicationCard
-              authors="Zihao Wang, and Zhe Wu"
+              authors="<strong>Zihao Wang<strong>, and Zhe Wu"
               title="Towards foundation model for chemical reactor modeling: Meta-learning with physics-informed adaptation"
               venue="Chemical Engineering Research and Design, 218, 839-853, 2025. IF: 3.9, JCR Q2 (Engineering, Chemical)"
               links={[
@@ -106,7 +106,7 @@ export default function App() {
               ]}
             />
             <PublicationCard
-              authors="Zihao Wang, Donghan Yu, and Zhe Wu"
+              authors="<strong>Zihao Wang<strong>, Donghan Yu, and Zhe Wu"
               title="Real-time machine-learning-based optimization using input convex long short-term memory network"
               venue="Applied Energy, 377, 124472, 2025. IF: 11.0, JCR Q1 (Engineering, Chemical; Energy & Fuels)"
               links={[
@@ -115,7 +115,7 @@ export default function App() {
               ]}
             />
             <PublicationCard
-              authors="Zihao Wang, and Ravi Suppiah"
+              authors="<strong>Zihao Wang<strong>, and Ravi Suppiah"
               title="Upper limb movement recognition utilising EEG and EMG signals for rehabilitative robotics"
               venue="Proceedings of Future of Information and Communication Conference, 676-695, San Francisco, California, USA, 2023"
               links={[
@@ -131,7 +131,7 @@ export default function App() {
         <Section id="presentations" title="Presentations">
           <div className="space-y-4">
             <PresentationCard
-              authors="Zihao Wang*, and Jue Tao Lim"
+              authors="<strong>Zihao Wang<strong>*, and Jue Tao Lim"
               title="Modelling the interplay between doxycycline post-exposure prophylaxis, four-component meningococcal serogroup B (4CMenB) vaccine, and antimicrobial resistance in Neisseria gonorrhoeae"
               conference="European Congress of Clinical Microbiology and Infectious Diseases (ESCMID Global 2026)"
               location="Munich, Germany"
@@ -140,7 +140,7 @@ export default function App() {
               note="Top 2%"
             />
             <PresentationCard
-              authors="Zihao Wang*, and Jue Tao Lim"
+              authors="<strong>Zihao Wang<strong>*, and Jue Tao Lim"
               title="Long-run public health impact of doxycycline post-exposure prophylaxis and behavioural factors on syphilis transmission: A modelling study in Singapore and England"
               conference="Epidemics: 10th International Conference on Infectious Disease Dynamics (Epidemics10)"
               location="San Diego, California, USA"
@@ -148,7 +148,7 @@ export default function App() {
               type="Oral"
             />
             <PresentationCard
-              authors="Zihao Wang*, and Jue Tao Lim"
+              authors="<strong>Zihao Wang<strong>*, and Jue Tao Lim"
               title="Long-term public health impact of doxycycline post-exposure prophylaxis and behavioural factors on syphilis transmission: A modelling study in Singapore and England"
               conference="Singapore Health & Biomedical Congress (SHBC)"
               location="Singapore"
@@ -156,7 +156,7 @@ export default function App() {
               type="Poster"
             />
             <PresentationCard
-              authors="Zihao Wang, Wenlong Wang*, and Zhe Wu"
+              authors="<strong>Zihao Wang<strong>, Wenlong Wang*, and Zhe Wu"
               title="Accelerated modeling of various chemical processes using meta-learning-based foundation models: A few-shot learning approach using Reptile"
               conference="American Institute of Chemical Engineers (AIChE) Annual Meeting"
               location="San Diego, California, USA"
@@ -164,7 +164,7 @@ export default function App() {
               type="Oral"
             />
             <PresentationCard
-              authors="Zihao Wang, Wenlong Wang*, and Zhe Wu"
+              authors="<strong>Zihao Wang<strong>, Wenlong Wang*, and Zhe Wu"
               title="Input convex LSTM for fast machine learning-based optimization"
               conference="American Institute of Chemical Engineers (AIChE) Annual Meeting"
               location="San Diego, California, USA"
@@ -172,7 +172,7 @@ export default function App() {
               type="Poster"
             />
             <PresentationCard
-              authors="Zihao Wang, and Zhe Wu*"
+              authors="<strong>Zihao Wang<strong>, and Zhe Wu*"
               title="Input convex LSTM: A convex approach for fast model predictive control"
               conference="Institute for Machine Learning, Johannes Kepler University"
               location="Linz, Austria"

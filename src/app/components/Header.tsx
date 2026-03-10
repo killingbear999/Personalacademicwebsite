@@ -22,7 +22,7 @@ export function Header() {
               <Phone size={18} />
               <span>+65 8450 7458</span>
             </a>
-            <a href="#" className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors">
+            <a href="https://scholar.google.com/citations?user=3DEY6doAAAAJ&hl=en" className="flex items-center gap-2 text-blue-600 hover:text-blue-700 transition-colors">
               <ExternalLink size={18} />
               <span>Google Scholar</span>
             </a>

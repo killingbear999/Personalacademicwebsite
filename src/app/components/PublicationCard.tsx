@@ -20,6 +20,32 @@ export function PublicationCard({ authors, title, venue, links, status }: Public
       return acc;
     }, []);
   };
+  
+  // Bold selected journals
+  const renderVenue = () => {
+    const journalsToBold = ["Applied Energy", "Nature Health"];
+
+    let formatted: React.ReactNode = venue;
+
+    journalsToBold.forEach((journal) => {
+      if (typeof formatted === "string" && formatted.includes(journal)) {
+        const parts = formatted.split(journal);
+        formatted = parts.reduce<React.ReactNode[]>((acc, part, index) => {
+          acc.push(part);
+          if (index < parts.length - 1) {
+            acc.push(
+              <span key={index} className="font-bold">
+                {journal}
+              </span>
+            );
+          }
+          return acc;
+        }, []);
+      }
+    });
+
+    return formatted;
+  };
 
   return (
     <div className="bg-white rounded-lg border border-gray-200 p-5 hover:shadow-md transition-shadow">

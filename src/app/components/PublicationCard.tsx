@@ -9,18 +9,19 @@ interface PublicationCardProps {
 }
 
 export function PublicationCard({ authors, title, venue, links, status }: PublicationCardProps) {
-  // Split authors by "Zihao Wang" and insert a bold span
+
+  // Bold your name
   const renderAuthors = () => {
     const parts = authors.split("Zihao Wang");
     return parts.reduce<React.ReactNode[]>((acc, part, index) => {
-      acc.push(part); // normal text
+      acc.push(part);
       if (index < parts.length - 1) {
         acc.push(<span key={index} className="font-bold">Zihao Wang</span>);
       }
       return acc;
     }, []);
   };
-  
+
   // Bold selected journals
   const renderVenue = () => {
     const journalsToBold = ["Applied Energy", "Nature Health"];
@@ -53,12 +54,17 @@ export function PublicationCard({ authors, title, venue, links, status }: Public
         <div className="p-2 bg-green-50 rounded-lg flex-shrink-0 mt-1">
           <FileText className="text-green-600" size={20} />
         </div>
+
         <div className="flex-1">
           <p className="text-gray-700 text-sm mb-2">{renderAuthors()}</p>
+
           <h3 className="text-base text-gray-900 font-normal mb-2 leading-snug">
             "{title}"
           </h3>
-          <p className="text-sm text-gray-600 mb-2 italic">{venue}</p>
+
+          <p className="text-sm text-gray-600 mb-2 italic">
+            {renderVenue()}
+          </p>
 
           {status && (
             <span className="inline-block px-2 py-1 bg-blue-50 text-blue-700 text-xs rounded mb-3">
@@ -74,7 +80,7 @@ export function PublicationCard({ authors, title, venue, links, status }: Public
                   href={link.url}
                   className="flex items-center gap-1 text-sm text-blue-600 hover:text-blue-700 transition-colors"
                 >
-                  {link.label.toLowerCase().includes('github') ? (
+                  {link.label.toLowerCase().includes("github") ? (
                     <Github size={14} />
                   ) : (
                     <ExternalLink size={14} />

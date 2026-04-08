@@ -130,7 +130,7 @@ export default function App() {
         <Section id="presentations" title="Presentations">
           <div className="space-y-4">
             <PresentationCard
-              authors="Zihao Wang*, and Jue Tao Lim"
+              authors="Zihao Wang*, Dariya Nikitin, Liang En Wee, Martin T.W. Chio, Rayner Kay Jin Tan, Yi Wang, David N. Fisman, Lilith K. Whittles, and Jue Tao Lim"
               title="Modelling the interplay between doxycycline post-exposure prophylaxis, vaccination, and antimicrobial resistance in Neisseria gonorrhoeae"
               conference="European Congress of Clinical Microbiology and Infectious Diseases (ESCMID Global 2026)"
               location="Munich, Germany"
@@ -139,7 +139,7 @@ export default function App() {
               note="Top 2%"
             />
             <PresentationCard
-              authors="Zihao Wang*, and Jue Tao Lim"
+              authors="Zihao Wang*, Dariya Nikitin, Liang En Wee, Martin T.W. Chio, Rayner Kay Jin Tan, Yi Wang, David N. Fisman, Lilith K. Whittles, and Jue Tao Lim"
               title="Modelling the interplay between doxycycline post-exposure prophylaxis, vaccination, and antimicrobial resistance in Neisseria gonorrhoeae"
               conference="LKCMedicine EArly Researcher Network (LEARN) Symposium"
               location="Singapore"
@@ -147,7 +147,7 @@ export default function App() {
               type="Flash Talk"
             />
             <PresentationCard
-              authors="Zihao Wang*, and Jue Tao Lim"
+              authors="Zihao Wang*, Dariya Nikitin, Borame L. Dickens, Liang En Wee, Martin T.W. Chio, Rayner Kay Jin Tan, Keisuke Ejima, Yi Wang, David N. Fisman, Lilith K. Whittles, and Jue Tao Lim"
               title="Long-run public health impact of doxycycline post-exposure prophylaxis and behavioural factors on syphilis transmission: A modelling study in Singapore and England"
               conference="Epidemics: 10th International Conference on Infectious Disease Dynamics (Epidemics10)"
               location="San Diego, California, USA"
@@ -155,7 +155,7 @@ export default function App() {
               type="Oral"
             />
             <PresentationCard
-              authors="Zihao Wang*, and Jue Tao Lim"
+              authors="Zihao Wang*, Dariya Nikitin, Borame L. Dickens, Liang En Wee, Martin T.W. Chio, Rayner Kay Jin Tan, Keisuke Ejima, Yi Wang, David N. Fisman, Lilith K. Whittles, and Jue Tao Lim"
               title="Long-term public health impact of doxycycline post-exposure prophylaxis and behavioural factors on syphilis transmission: A modelling study in Singapore and England"
               conference="Singapore Health & Biomedical Congress (SHBC)"
               location="Singapore"

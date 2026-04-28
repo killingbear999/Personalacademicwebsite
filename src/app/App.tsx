@@ -34,11 +34,11 @@ export default function App() {
               </p>
               <p className="text-gray-700 leading-relaxed mb-4">
                 My current research focuses on developing mathematical models to understand and predict the spread of infectious 
-                diseases, emergence of antimicrobial resistance, evaluate and optimize public health interventions. I work under the guidance 
+                diseases, emergence of antimicrobial resistance, evaluate and optimize public health interventions, mainly on sexually transmitted infections. I work under the guidance 
                 of Prof. Jue Tao Lim at NTU and Dr. Ian Wee Liang En at Singapore General Hospital.
               </p>
               <p className="text-gray-700 leading-relaxed">
-                Previously, I earned my Bachelor's degree with Distinction in Computer Engineering from the National University 
+                Previously, I earned my Bachelor's degree in Computer Engineering from the National University 
                 of Singapore and worked as a Research Engineer, specializing in deep learning for engineering.
               </p>
             </div>
